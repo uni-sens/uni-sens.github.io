@@ -1,0 +1,80 @@
+
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Изображения</title>
+</head>
+<body style="background-color: rgb(121, 113, 129);">
+	<section class="center">
+		<h1>Изображения</h1>
+
+		<h2>Элемент <code>img</code></h2>
+
+		<p>Элемент <code>img</code> внедряет изображение в текущий документ в месте определения элемента. Элемент <code>img</code> не имеет содержимого — он замещается на ходу изображением, указанным в атрибуте <code>src</code>.</p>
+
+		<h2>Альтернативный текст</h2>
+		<p>Атрибут <code>alt</code> предоставляет краткое описание изображения. Он содержит альтернативный текст, который отображается, если изображение не может быть выведено. Пользовательские агенты должны отображать альтернативный текст, если они не поддерживают изображения, или сконфигурированы так, чтобы не показывать изображения (отключен показ изображений).</p>
+
+		<h2>Размеры изображения</h2>
+		<p>Атрибуты <code>width</code> и <code>height</code> задают размеры области изображения. Если оба атрибута не заданы, размер изображения будет определен после его полной загрузки, после чего размеры области будут изменены для размещения содержания картинки.
+		Если задан только один из атрибутов, второй размер будет высчитан в соответствие с пропорциями изображения и заданным атрибутом.
+		При указании обоих атрибутов ПА «впишет» изображение в область с указанными размерами.</p>
+		<p>Для добавления гибких (responsive) изображений (таких, 
+		которые отображаются хорошо на устройствах с сильно отличающимися размерами экрана, разрешением, и другими характеристиками)
+		используют атрибуты <code>sizes</code> и  <code>srcset</code>.
+		Атрибут <code>sizes</code> задаёт размеры изображения для разных макетов страницы. 
+		Атрибут <code>srcset</code> задаёт путь к графическим файлам с учётом размера изображения и устройств.
+
+		</p>
+
+		<h2>Подпись к изображению</h2>
+		<p>Для группирования любых элементов, например, изображений и подписей к ним используется элемент <code>figure</code>.
+		Он не должен быть связан непосредственно с основным содержимым документа и при его перемещении в другое место смысл текста не должен меняться. 
+		Обычно применяется для иллюстраций, фрагментов кода, схем, графиков, диаграмм и др.
+		Элемент <code>figcaption</code> содержит описание для элемента <code>figure</code>. Он должен быть первым или последним элементом в группе.</p>
+
+		<h2>Элемент picture</h2>
+		<p>
+		HTML-элемент <code>picture</code> служит контейнером для одного или более элементов 
+		<code>source</code> и одного элемента <code>img</code> для обеспечения оптимальной версии изображения 
+		для различных размеров экрана. Браузер рассмотрит каждый из дочерних элементов  <code>source</code> 
+		и выберет один, соответствующий лучшему совпадению; если совпадений среди элементов <code>source</code> 
+		найдено не будет, то будет выбран файл, указанный  атрибутом  <code>src</code> элемента <code>img</code>. 
+		Затем выбранное изображение отображается в пространстве, занятом элементом <code>img</code>. 
+		</p>
+        <p><img src="images/aquaria.jpg" alt="aquaria"></p>
+        <p><figurecaption>aquaria</figurecaption></p>
+        
+        <p><img src="images/globus.gif"> </p>
+        <p><figurecaption>globus</figurecaption></p>
+        
+        <p><figure>html 5 logo</figure></p>
+        <p><img src="images/html5-logo.png"></p>
+        <p><figurecaption>html 5 logo</figurecaption></p>
+        <p><img src="images/html5-logo.svg"></p>
+        <p><figcaption>html 5 logo</figcaption></p>
+
+        <p><img src="images/light.gif"></p>
+        <p><figurecaption>light</figurecaption></p>
+
+        <p><img src="images/muscle.png"></p>
+        <p><figurecaption>muscle</figurecaption></p>
+
+        <p><figure>mushroom</figure></p>
+        <p><img src="images/mushroom.jpg"></p>
+        <p><figurecaption>mushroom</figurecaption></p>
+        <p><img src="images/mushroom_landscape.jpg"></p>
+        <p><figcaption>mushroom landscape</figcaption></p>
+        <p><img src="images/mushroom_portrait.jpg"></p>
+        <p><figcaption>mushroom portrait</figcaption></p>
+        <p><img src="images/mushroom_retina.jpg"></p>
+        <p><figcaption>mushroom retina</figcaption></p>
+
+        <p><img src="images/redcat.jpg"></p>
+        <p><figcaption>redcat</figcaption></p>
+
+        <p><img src="images/slon.png"></p>
+        <p><figcaption>slon</figcaption></p>
+	</section>
+</body>
+</html>
