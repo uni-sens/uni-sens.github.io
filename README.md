@@ -1,1 +1,36 @@
-# uni-sens.github.io
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Задание 1.1</title>
+</head>
+<body style="background-color: rgb(121, 113, 129);">
+<h1>Лабораторные работы</h1>
+<li> Лабораторная работа 1
+<p><a href="lab1_1.html">Лабораторная работа №1.1</a></p>
+<p><a href="lab1_2.html">Лабораторная работа №1.2</a></p>
+<p><a href="lab1_3.html">Лабораторная работа №1.3</a></p>
+<p><a href="lab1_4.html">Лабораторная работа №1.4</p>
+<p><a href="lab1_5.html">Лабораторная работа №1.5</a></p>
+</li><li> Лабораторная работа 2
+<p><a href="lab2_1.html">Лабораторная работа №2.1</a></p>
+<p><a href="lab2_2.html">Лабораторная работа №2.2</a></p>
+<p><a href="lab2_3.html">Лабораторная работа №2.3</a></p>
+<p><a href="lab2_4.html">Лабораторная работа №2.4</a></p>
+</li><li> Лабораторная работа 3
+<p><a href="lab3_1.html">Лабораторная работа №3.1</a></p>
+<p><a href="lab3_2.html">Лабораторная работа №3.2</a></p>
+</li><li> Лабораторная работа 4
+<p><a href="lab4_1.html">Лабораторная работа №4.1</a></p>
+<p><a href="lab4_2.html">Лабораторная работа №4.2</a></p>
+<p><a href="lab4_3.html">Лабораторная работа №4.3</a></p>
+</li><li> Лабораторная работа 5
+<p><a href="lab5_1.html">Лабораторная работа №5.1</a></p>
+<p><a href="lab5_2.html">Лабораторная работа №5.2</a></p>
+<p><a href="lab5_3.html">Лабораторная работа №5.3</a></p>
+<p><a href="lab5_4.html">Лабораторная работа №5.4</a></p>
+</li>
+</body>
+</html>
