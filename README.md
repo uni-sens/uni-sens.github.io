@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Задание 1.1</title>
+  <title>Лабораторные работы</title>
 </head>
 <body style="background-color: rgb(121, 113, 129);">
 <h1>Лабораторные работы</h1>
